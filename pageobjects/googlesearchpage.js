@@ -2,6 +2,7 @@ export default class GoogleSearchPage {
 
     constructor(page) {
         this.page = page;
+        this.SEARCH_BOX = 'input[name=q]';
     }
 
     async open(){
@@ -10,5 +11,10 @@ export default class GoogleSearchPage {
 
     async getTitle() {
         return this.page.title();
+    }
+
+    async searchFor(searchterm){
+        await this.page.waitFor(this.SEARCH_BOX);
+        await this.page.type(this.SEARCH_BOX, searchterm, { delay: 100 });
     }
 }

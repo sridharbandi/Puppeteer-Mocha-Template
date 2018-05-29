@@ -4,7 +4,7 @@
   "description": "Puppeteer Mocha Example Project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/_mocha --require babel-core/register --require babel-polyfill --timeout 10000 tests"
+    "test": "./node_modules/.bin/_mocha --require babel-core/register --require babel-polyfill --timeout 60000 tests"
   },
   "author": "Sridhar Bandi",
   "license": "MIT",
