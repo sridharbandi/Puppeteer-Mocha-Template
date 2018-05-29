@@ -1,0 +1,24 @@
+{
+  "name": "com.tech.puppeteer",
+  "version": "1.0.0",
+  "description": "Puppeteer Mocha Example Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --require babel-core/register --require babel-polyfill --timeout 10000 tests"
+  },
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.4.0"
+  }
+}
