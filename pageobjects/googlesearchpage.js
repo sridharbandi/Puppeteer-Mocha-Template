@@ -16,5 +16,6 @@ export default class GoogleSearchPage {
     async searchFor(searchterm){
         await this.page.waitFor(this.SEARCH_BOX);
         await this.page.type(this.SEARCH_BOX, searchterm, { delay: 100 });
+        await this.page.keyboard.press('Enter');
     }
 }

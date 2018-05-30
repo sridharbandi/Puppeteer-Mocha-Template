@@ -24,6 +24,7 @@ describe('Google Test', () => {
 
     it('Search for "Selenium"', async () => {
         await googlesearchpage.searchFor('Selenium')
+        assert.equal(await searchresultspage.isSeleniumPresent(), 'Selenium - Web Browser Automation')
     });
 
 });
