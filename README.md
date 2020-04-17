@@ -18,6 +18,6 @@ Below are the few other Puppeteer templates
 2. [Puppeteer Cucumber Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Puppeteer-Cucumber-Template)
 
 Other templates you might be interested in 
-[Non Selenium Javascript Templates](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples)
+[Non Selenium Javascript Templates](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples), 
 [Selenium Javascript Templates](https://github.com/sridharbandi/Selenium-Javascript-Getting-Started-Examples)
 > Feel free to modify it to your own needs :)
