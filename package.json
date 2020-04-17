@@ -4,21 +4,21 @@
   "description": "Puppeteer Mocha Example Project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/_mocha --require babel-core/register --require babel-polyfill --timeout 60000 tests"
+    "test": "./node_modules/.bin/_mocha --require @babel/register --timeout 60000 tests"
   },
   "author": "Sridhar Bandi",
   "license": "MIT",
-  "babel": {
-    "presets": [
-      "env"
-    ]
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "puppeteer": "^1.4.0"
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "puppeteer": "^3.0.0"
   }
 }
